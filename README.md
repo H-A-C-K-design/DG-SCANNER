@@ -42,3 +42,44 @@ sudo apt install python3 python3-pip python3-venv -y
 
 # Install required system packages
 sudo apt install tkinter tk-dev -y
+
+# Make setup executable
+chmod +x setup.sh
+
+# Run setup
+./setup.sh
+
+# Activate environment
+source venv/bin/activate
+
+# Run the tool
+python3 dg_scanner.py
+python3 dg_scanner.py --scan-file /path/to/suspicious/file
+python3 dg_scanner.py --scan-url https://suspicious-site.com
+python3 dg_scanner.py --scan-ip 192.168.1.100
+python3 dg_scanner.py --scan-apk /path/to/app.apk
+python3 dg_scanner.py --scan-doc /path/to/document.doc
+
+💻 Usage
+GUI Mode (Recommended)
+bash
+source venv/bin/activate
+python3 dg_scanner.py
+
+git clone https://github.com/H-A-C-K-design/DG-SCANNER.git
+
+cd DG-SCANNER
+
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run setup
+chmod +x setup.sh
+./setup.sh
+
+
