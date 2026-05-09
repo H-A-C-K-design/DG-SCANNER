@@ -1,0 +1,14 @@
+DG-SEC-SCANNER/
+├── README.md
+├── requirements.txt
+├── setup.sh
+├── dg_scanner.py
+├── modules/
+│   ├── __init__.py
+│   ├── file_scanner.py
+│   ├── url_scanner.py
+│   ├── ip_scanner.py
+│   ├── apk_scanner.py
+│   └── doc_scanner.py
+└── assets/
+    └── banner.txt
